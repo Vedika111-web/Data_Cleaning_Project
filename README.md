@@ -6,24 +6,42 @@ This project focuses on cleaning and preprocessing two datasets:
 - Airbnb Dataset
 - YouTube Trending Dataset
 
-## 🔧 Tasks Performed
-- Handled missing values
-- Removed duplicate records
-- Converted data types
-- Cleaned column names
-- Removed outliers
+## 📁 Project Structure
+Data_Cleaning_Project/
+│── airbnb.csv
+│── youtube_trending.csv
+│── clean_airbnb.csv
+│── clean_youtube.csv
+│── cleaning.py
+│── README.md
 
-## 📂 Datasets Used
-1. Airbnb Dataset
-2. YouTube Trending Dataset
-
-## 📊 Output
-- cleaned_airbnb.csv
-- cleaned_youtube.csv
-
-## 🛠 Tools Used
+## 🛠️ Technologies Used
 - Python
 - Pandas
+- NumPy
+- Git & GitHub
+  
+ ## ⚙️ Data Cleaning Steps
+- Removed missing values
+- Handled null data
+- Removed duplicate rows
+- Standardized columns
+- Filtered invalid data (0 views)
+- Saved cleaned datasets
+
+ ## ▶️ How to Run
+
+1. Install Python
+2. Install pandas:
+   pip install pandas
+3. Run:
+   python cleaning.py
+
+ ## 📊 Output
+
+- clean_airbnb.csv → cleaned Airbnb dataset
+- clean_youtube.csv → cleaned YouTube dataset
+  
 
 ## 🎯 Conclusion
 Data cleaning improved the quality and reliability of datasets for further analysis.
