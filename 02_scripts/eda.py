@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load cleaned datasets
-airbnb = pd.read_csv("../data/clean_airbnb.csv")
-youtube = pd.read_csv("../data/clean_youtube.csv")
+airbnb = pd.read_csv("../01_data/clean_airbnb.csv")
+youtube = pd.read_csv("../01_data/clean_youtube.csv")
 
 print("Datasets loaded successfully")
 
@@ -46,5 +46,5 @@ plt.xlabel("Views")
 plt.ylabel("Likes")
 plt.title("Views vs Likes")
 
-plt.savefig("../outputs/views_vs_likes.png")
+plt.savefig("../03_outputs/views_vs_likes.png")
 plt.show()
