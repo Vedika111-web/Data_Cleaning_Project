@@ -41,6 +41,22 @@ Data_Cleaning_Project/
 
 - clean_airbnb.csv → cleaned Airbnb dataset
 - clean_youtube.csv → cleaned YouTube dataset
+
+ ## 📊 Exploratory Data Analysis (EDA)
+
+Performed analysis on cleaned datasets:
+
+### Airbnb Insights:
+- Identified top expensive locations
+- Compared average prices
+
+### YouTube Insights:
+- Found most viewed videos
+- Analyzed views vs likes relationship
+
+### Visualizations:
+- Bar chart (Airbnb prices)
+- Scatter plot (Views vs Likes)
   
 
 ## 🎯 Conclusion
