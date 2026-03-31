@@ -1,63 +1,62 @@
-# Author: Vedika Tayade
-# Data Cleaning Project
+# 📊 Data Cleaning Project
+
+## 👩‍💻 Author
+Vedika Tayade
+
+---
 
 ## 📌 Project Overview
-This project focuses on cleaning and preprocessing two datasets:
-- Airbnb Dataset
-- YouTube Trending Dataset
+This project focuses on cleaning and analyzing real-world datasets using Python.
 
-## 📁 Project Structure
-Data_Cleaning_Project/
-│── airbnb.csv
-│── youtube_trending.csv
-│── clean_airbnb.csv
-│── clean_youtube.csv
-│── cleaning.py
-│── README.md
+Datasets used:
+- Airbnb dataset
+- YouTube trending dataset
 
-## 🛠️ Technologies Used
+---
+
+## ⚙️ Tools & Libraries
 - Python
 - Pandas
-- NumPy
-- Git & GitHub
-  
- ## ⚙️ Data Cleaning Steps
-- Removed missing values
-- Handled null data
-- Removed duplicate rows
-- Standardized columns
-- Filtered invalid data (0 views)
-- Saved cleaned datasets
+- Matplotlib
 
- ## ▶️ How to Run
+---
 
-1. Install Python
-2. Install pandas:
-   pip install pandas
-3. Run:
-   python cleaning.py
+## 🧹 Data Cleaning Steps
+- Removed null values
+- Handled missing data
+- Renamed columns
+- Filtered unnecessary data
 
- ## 📊 Output
+---
 
-- clean_airbnb.csv → cleaned Airbnb dataset
-- clean_youtube.csv → cleaned YouTube dataset
+## 📊 Exploratory Data Analysis (EDA)
+- Analyzed dataset structure
+- Generated insights
+- Created visualizations
 
- ## 📊 Exploratory Data Analysis (EDA)
+---
 
-Performed analysis on cleaned datasets:
+## 📁 Project Structure
 
-### Airbnb Insights:
-- Identified top expensive locations
-- Compared average prices
+01_data → datasets  
+02_scripts → python scripts  
+03_outputs → graphs  
 
-### YouTube Insights:
-- Found most viewed videos
-- Analyzed views vs likes relationship
+---
 
-### Visualizations:
-- Bar chart (Airbnb prices)
-- Scatter plot (Views vs Likes)
-  
+## 📊 Output Visualization
 
-## 🎯 Conclusion
-Data cleaning improved the quality and reliability of datasets for further analysis.
+### Views vs Likes
+
+![Views vs Likes](03_outputs/views_vs_likes.png)
+
+---
+
+## ⚠️ Note
+Only sample dataset (head rows) is uploaded due to size limitations.
+
+---
+
+## 🚀 Conclusion
+This project demonstrates basic data cleaning and visualization skills using Python.
+
