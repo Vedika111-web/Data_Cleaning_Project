@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.env
+venv/
+
+# System files
+.DS_Store
+
+# Large data (optional)
+*.csv
