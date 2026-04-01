@@ -44,6 +44,20 @@ Datasets used:
 
 ---
 
+## 📊 Insights
+
+- Most expensive Airbnb listings are concentrated in specific neighbourhood groups like Manhattan.
+- Prices vary significantly based on location and room type.
+- Some neighbourhoods have consistently higher average prices than others.
+
+- YouTube data shows that videos with higher views tend to have higher likes.
+- There is a positive relationship between views and likes.
+- A few videos dominate in terms of views, indicating uneven distribution.
+
+- Missing values were identified and handled during data cleaning.
+- Duplicate rows were removed to ensure data quality.
+
+  
 ## 📊 Output Visualization
 
 ### Views vs Likes
